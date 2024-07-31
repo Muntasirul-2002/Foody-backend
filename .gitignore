@@ -13,6 +13,7 @@ dist-ssr
 *.local
 .env
 # Editor directories and files
+# Remove any lines that ignore the uploads folder
 .vscode/*
 !.vscode/extensions.json
 .idea
