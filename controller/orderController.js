@@ -5,7 +5,7 @@ const stripe = new Stripe("sk_test_4eC39HqLyjWDarjtT1zdp7dc");
 
 //placing user order for frontend
 const placeOrder = async (req, res) => {
-    const frontend_url = "http://localhost:5173"
+    const frontend_url = "https://foody-islam.vercel.app"
   try {
     console.log('Request Body:', req.body);
     const newOrder = await orderModel({
